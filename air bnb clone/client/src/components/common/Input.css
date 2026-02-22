@@ -1,0 +1,52 @@
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #222;
+  font-size: 14px;
+}
+
+.required {
+  color: #FF385C;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  min-height: 44px;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #222;
+}
+
+.input-field:disabled {
+  background-color: #F7F7F7;
+  cursor: not-allowed;
+}
+
+.input-error {
+  border-color: #D93025;
+}
+
+.error-message {
+  display: block;
+  margin-top: 6px;
+  color: #D93025;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .input-field {
+    font-size: 16px;
+  }
+}

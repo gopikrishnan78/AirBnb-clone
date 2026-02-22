@@ -1,0 +1,76 @@
+.booking-form-container {
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 100px;
+}
+
+.booking-price {
+  font-size: 24px;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.price-amount {
+  font-weight: 700;
+  color: #222;
+}
+
+.booking-summary {
+  margin: 20px 0;
+  padding: 16px;
+  background-color: #F7F7F7;
+  border-radius: 8px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  color: #717171;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  border-top: 1px solid #DDDDDD;
+  font-size: 18px;
+}
+
+.booking-error {
+  background-color: #FFF5F5;
+  border: 1px solid #FED7D7;
+  color: #C53030;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.booking-success {
+  background-color: #F0FFF4;
+  border: 1px solid #9AE6B4;
+  color: #22543D;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.booking-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .booking-form-container {
+    position: static;
+    margin-top: 24px;
+  }
+}
